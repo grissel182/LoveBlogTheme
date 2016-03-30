@@ -1,0 +1,168 @@
+/*/////////////////VARIABLES//////////////////////*/
+/*porcentajes*/
+/*pixeles*/
+/*colores*/
+body {
+  padding-top: 70px;
+  /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */ }
+
+/*MENU*/
+.navbar-fixed-top .nav {
+  padding: 10px 0; }
+.navbar-fixed-top .navbar-brand {
+  padding: 0 15px; }
+  .navbar-fixed-top .navbar-brand:hover, .navbar-fixed-top .navbar-brand:focus {
+    background-color: transparent; }
+
+.navbar-inverse {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  border: none !important; }
+  .navbar-inverse .navbar-nav li > a {
+    color: #C6C4C4; }
+    .navbar-inverse .navbar-nav li > a:hover, .navbar-inverse .navbar-nav li > a:focus {
+      color: #E96441;
+      background-color: transparent; }
+  .navbar-inverse .navbar-toggle {
+    background-color: #E96441 !important; }
+
+nav h1 {
+  color: #E96441; }
+  nav h1 span {
+    color: rgba(233, 100, 65, 0.5); }
+nav a, nav h1 {
+  font-family: "bebas___-webfont" !important;
+  word-spacing: 5px; }
+
+/*/////////////////VARIABLES//////////////////////*/
+/*porcentajes*/
+/*pixeles*/
+/*colores*/
+/*/////////////////VARIABLES//////////////////////*/
+/*porcentajes*/
+/*pixeles*/
+/*colores*/
+/*/////////////////VARIABLES//////////////////////*/
+/*porcentajes*/
+/*pixeles*/
+/*colores*/
+/*/////////////////VARIABLES//////////////////////*/
+/*porcentajes*/
+/*pixeles*/
+/*colores*/
+footer {
+  color: white;
+  background-color: rgba(233, 100, 65, 0.5); }
+  footer .base {
+    background-color: white; }
+    footer .base .container {
+      background-color: #E96441;
+      padding-bottom: 5%;
+      width: 99%; }
+    footer .base h2 {
+      font-family: "bebas___-webfont" !important;
+      word-spacing: 4px; }
+  footer .social_area {
+    background-image: url(../images/social.png);
+    background-repeat: no-repeat; }
+  footer ul {
+    padding: 0; }
+  footer li {
+    display: inline-block;
+    padding: 0 10px;
+    height: 3em; }
+    footer li a {
+      padding: 5px;
+      height: 2em; }
+
+* {
+  font-family: 'OpenSans-Condensed' Helvetica; }
+
+@font-face {
+  font-family: "bebas___-webfont";
+  src: url("../font/bebas___-webfont.ttf"); }
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("../font/HelveticaNeue.ttf"); }
+.pleca {
+  height: 6em;
+  background-color: rgba(233, 100, 65, 0.5);
+  width: 100%;
+  position: absolute;
+  z-index: -10; }
+
+.line {
+  background-color: white !important; }
+
+#items {
+  /*/3 col items*/ }
+  #items h2, #items button {
+    font-family: "bebas___-webfont" !important;
+    word-spacing: 4px; }
+  #items h2 {
+    color: #E96441;
+    font-size: 1.2em; }
+  #items .btn-primary {
+    background-color: #E96441 !important;
+    border-color: #E96441 !important; }
+    #items .btn-primary:hover {
+      background-color: #D64B26 !important; }
+
+#fromblog .titles h3 {
+  color: #E96441;
+  display: inline-block;
+  font-family: "bebas___-webfont" !important; }
+#fromblog .titles .image {
+  background-image: url(../images/heading-bg.png);
+  background-repeat: repeat-x;
+  width: 100%;
+  float: right;
+  height: 1em;
+  margin-top: 1em; }
+#fromblog .f-blog {
+  margin-top: 15px;
+  margin-bottom: 5%; }
+  #fromblog .f-blog img {
+    width: 100%; }
+  #fromblog .f-blog .fblog {
+    width: 100%;
+    padding: 5% 5px 5% 10%;
+    margin-top: 5px;
+    border: 1px solid #C6C4C4;
+    border-top: none; }
+    #fromblog .f-blog .fblog h6, #fromblog .f-blog .fblog h4 {
+      font-family: "bebas___-webfont" !important; }
+    #fromblog .f-blog .fblog h4 {
+      color: #C6C4C4; }
+    #fromblog .f-blog .fblog h6 {
+      color: #E96441; }
+
+#recent .titles h3 {
+  color: #E96441;
+  display: inline-block;
+  font-family: "bebas___-webfont" !important; }
+#recent .titles .image {
+  background-image: url(../images/heading-bg.png);
+  background-repeat: repeat-x;
+  width: 100%;
+  float: right;
+  height: 1em;
+  margin-top: 1em; }
+#recent .f-blog {
+  margin-top: 15px;
+  margin-bottom: 5%; }
+  #recent .f-blog img {
+    width: 100%; }
+  #recent .f-blog .fblog {
+    width: 100%;
+    padding: 5% 5px 5% 10%;
+    margin-top: 5px;
+    border: 1px solid #C6C4C4;
+    border-top: none; }
+    #recent .f-blog .fblog h6, #recent .f-blog .fblog h4 {
+      font-family: "bebas___-webfont" !important; }
+    #recent .f-blog .fblog h4 {
+      color: #C6C4C4; }
+    #recent .f-blog .fblog h6 {
+      color: #E96441; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,58 @@
+@import "../variables/var";
+
+@mixin items1{ /*/3 col items*/
+	h2, button{
+		font-family: "bebas___-webfont" !important;
+        word-spacing: 4px;
+	}
+	h2{
+		color: $color;
+		font-size: 1.2em;
+	}
+	.btn-primary{
+		background-color: $color !important;
+		border-color: $color !important;
+		&:hover{
+			background-color: $color-dark !important;
+		}
+	}
+}
+@mixin titles{
+	h3{
+		color: $color;
+		display: inline-block;
+		font-family: "bebas___-webfont" !important;
+	}
+	.image{
+		background-image: url(../images/heading-bg.png);
+		background-repeat: repeat-x;
+		width: 100%;
+		float: right;
+		height: 1em;
+		margin-top: 1em;
+	}
+}
+@mixin fromb{
+	margin-top: $quincep;
+	margin-bottom: $cinco;
+	img{
+		width: $cien;
+	}
+	.fblog{
+		width: $cien;
+		padding: $cinco 5px $cinco $diez;
+		margin-top: 5px;
+		border: 1px solid $gris;
+		border-top: none;
+		h6, h4{
+			font-family: "bebas___-webfont" !important;
+		}
+		h4{
+			color: $gris;
+		}
+		h6{
+			color: $color;
+		}
+
+	}
+}

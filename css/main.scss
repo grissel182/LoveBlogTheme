@@ -1,0 +1,47 @@
+@import "menu/_menu";
+@import "variables/var";
+@import "elementos/_elements";
+@import "mixins/_mixins";
+@import "footer/_footer";
+
+*{
+	font-family: 'OpenSans-Condensed' Helvetica;
+}
+@font-face {
+  font-family: "bebas___-webfont";
+  src: url("../font/bebas___-webfont.ttf");
+}
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("../font/HelveticaNeue.ttf");
+}
+
+.pleca{
+	height: 6em;
+	background-color: $light;
+	width: $cien;
+	position: absolute;
+	z-index: -10;
+}
+.line{
+	background-color: $white !important;
+}
+#items{
+	@include items1;
+}
+#fromblog{
+	.titles{
+		@include titles;
+	}
+	.f-blog{
+		@include fromb;
+	}
+}
+#recent{
+	.titles{
+		@include titles;
+	}
+	.f-blog{
+		@include fromb;
+	}
+}

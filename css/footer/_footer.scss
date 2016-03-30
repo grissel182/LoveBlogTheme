@@ -1,0 +1,35 @@
+@import "../variables/var";
+
+footer{
+    color: $white;
+    background-color: $light;
+    .base {
+        background-color: white;
+
+        .container{
+            background-color: $color;
+            padding-bottom: $cinco;
+            width: 99%;
+        }
+        h2 {
+        font-family: "bebas___-webfont" !important;
+        word-spacing: 4px;
+        }
+    }
+    .social_area{
+        background-image: url(../images/social.png);
+        background-repeat: no-repeat;
+    }
+    ul{
+        padding: 0;
+    }
+    li{
+        display: inline-block;
+        padding: 0 10px;
+        height: 3em;
+        a{
+            padding: 5px;
+            height: 2em;
+        }
+    }
+}
