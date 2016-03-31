@@ -50,7 +50,7 @@ nav a, nav h1 {
 /*pixeles*/
 /*colores*/
 footer {
-  color: white;
+  color: white !important;
   background-color: rgba(233, 100, 65, 0.5); }
   footer .base {
     background-color: white; }
@@ -59,7 +59,6 @@ footer {
       padding-bottom: 5%;
       width: 99%; }
     footer .base h2 {
-      font-family: "bebas___-webfont" !important;
       word-spacing: 4px; }
   footer .social_area {
     background-image: url(../images/social.png);
@@ -83,6 +82,12 @@ footer {
 @font-face {
   font-family: "HelveticaNeue";
   src: url("../font/HelveticaNeue.ttf"); }
+section p {
+  color: #5D5858; }
+
+h5, h2, h3, h4, h6 {
+  font-family: "bebas___-webfont" !important; }
+
 .pleca {
   height: 6em;
   background-color: rgba(233, 100, 65, 0.5);
@@ -92,6 +97,18 @@ footer {
 
 .line {
   background-color: white !important; }
+
+.light-gray {
+  color: #A6A5A5 !important; }
+
+.pl-15 {
+  padding-left: 15px; }
+
+.mt-5 {
+  margin-top: 5%; }
+
+.pt-3 {
+  padding-top: 8%; }
 
 #items {
   /*/3 col items*/ }
@@ -109,8 +126,7 @@ footer {
 
 #fromblog .titles h3 {
   color: #E96441;
-  display: inline-block;
-  font-family: "bebas___-webfont" !important; }
+  display: inline-block; }
 #fromblog .titles .image {
   background-image: url(../images/heading-bg.png);
   background-repeat: repeat-x;
@@ -129,8 +145,6 @@ footer {
     margin-top: 5px;
     border: 1px solid #C6C4C4;
     border-top: none; }
-    #fromblog .f-blog .fblog h6, #fromblog .f-blog .fblog h4 {
-      font-family: "bebas___-webfont" !important; }
     #fromblog .f-blog .fblog h4 {
       color: #C6C4C4; }
     #fromblog .f-blog .fblog h6 {
@@ -138,8 +152,7 @@ footer {
 
 #recent .titles h3 {
   color: #E96441;
-  display: inline-block;
-  font-family: "bebas___-webfont" !important; }
+  display: inline-block; }
 #recent .titles .image {
   background-image: url(../images/heading-bg.png);
   background-repeat: repeat-x;
@@ -158,11 +171,257 @@ footer {
     margin-top: 5px;
     border: 1px solid #C6C4C4;
     border-top: none; }
-    #recent .f-blog .fblog h6, #recent .f-blog .fblog h4 {
-      font-family: "bebas___-webfont" !important; }
     #recent .f-blog .fblog h4 {
       color: #C6C4C4; }
     #recent .f-blog .fblog h6 {
       color: #E96441; }
+
+#titulo .pt-0 {
+  padding-top: 0; }
+#titulo .mt-0 {
+  margin-top: -20px; }
+#titulo h3 {
+  color: white; }
+#titulo .red {
+  background-color: #E96441;
+  height: 6em;
+  word-spacing: 4px;
+  padding-left: 15px; }
+
+#aboutusinfo, #bloginfo, #contactus {
+  padding-bottom: 5%; }
+  #aboutusinfo .borde-img, #bloginfo .borde-img, #contactus .borde-img {
+    border: 1px solid #C6C4C4;
+    padding: 3px; }
+    #aboutusinfo .borde-img img, #bloginfo .borde-img img, #contactus .borde-img img {
+      width: 100%; }
+  #aboutusinfo .titles h3, #bloginfo .titles h3, #contactus .titles h3 {
+    color: #E96441;
+    display: inline-block; }
+  #aboutusinfo .titles .image, #bloginfo .titles .image, #contactus .titles .image {
+    background-image: url(../images/heading-bg.png);
+    background-repeat: repeat-x;
+    width: 100%;
+    float: right;
+    height: 1em;
+    margin-top: 1em; }
+  #aboutusinfo .titles h3, #bloginfo .titles h3, #contactus .titles h3 {
+    font-size: 1.1em !important;
+    margin-top: 0 !important; }
+  #aboutusinfo .titles .image, #bloginfo .titles .image, #contactus .titles .image {
+    margin-top: 0 !important; }
+  #aboutusinfo a li, #bloginfo a li, #contactus a li {
+    color: black;
+    font-weight: 600;
+    list-style-type: none; }
+    #aboutusinfo a li:hover, #bloginfo a li:hover, #contactus a li:hover {
+      color: #E96441; }
+  #aboutusinfo .v5, #bloginfo .v5, #contactus .v5 {
+    width: 22%;
+    display: inline-block; }
+  #aboutusinfo .red-block, #bloginfo .red-block, #contactus .red-block {
+    background-color: rgba(233, 100, 65, 0.5);
+    border: 1px solid #E96441;
+    height: auto;
+    padding-bottom: 4em; }
+    #aboutusinfo .red-block:hover, #bloginfo .red-block:hover, #contactus .red-block:hover, #aboutusinfo .red-block:focus, #bloginfo .red-block:focus, #contactus .red-block:focus {
+      background-image: url(../images/portfolio5.png);
+      background-size: cover;
+      border: 1px solid #D64B26; }
+  #aboutusinfo blockquote, #bloginfo blockquote, #contactus blockquote {
+    border-left: 10px solid #E96441;
+    margin: 0 5%; }
+    #aboutusinfo blockquote .txt-color, #bloginfo blockquote .txt-color, #contactus blockquote .txt-color {
+      color: #E96441 !important;
+      line-height: 1.4; }
+
+/*blog*/
+#bloginfo h5, #bloginfo h4 {
+  color: #E96441; }
+#bloginfo .plecatextura h3 {
+  color: #E96441;
+  display: inline-block; }
+#bloginfo .plecatextura .image {
+  background-image: url(../images/heading-bg.png);
+  background-repeat: repeat-x;
+  width: 100%;
+  float: right;
+  height: 1em;
+  margin-top: 1em; }
+#bloginfo .mt-10 {
+  margin-top: 10%; }
+#bloginfo blockquote {
+  background: #F6F6F6;
+  border-left: none;
+  margin: 5% 0 0;
+  padding: 5%; }
+  #bloginfo blockquote span {
+    margin: -10px 2px 20px 0;
+    display: block;
+    float: left; }
+#bloginfo blockquote:before {
+  color: #ccc;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0;
+  vertical-align: -0.4em; }
+#bloginfo blockquote p {
+  display: inline-block;
+  margin: -20px 0 0 45px; }
+#bloginfo .mpl {
+  margin: 5% 0 0 2%; }
+#bloginfo .pagination li a {
+  background-color: #E96441 !important;
+  color: white !important;
+  border: 1px solid #D64B26 !important;
+  font-family: "bebas___-webfont" !important;
+  border-radius: 0px !important;
+  margin: 0 10px 0 0; }
+  #bloginfo .pagination li a:hover {
+    background-color: #D64B26 !important; }
+#bloginfo .icon1 {
+  position: absolute;
+  margin-left: -90px; }
+#bloginfo .icon4 {
+  margin-top: 42px; }
+
+/*portfolio*/
+#portfolio {
+  padding-bottom: 5%; }
+  #portfolio h4 {
+    color: black;
+    display: inline-block; }
+  #portfolio ul {
+    display: inline-block;
+    margin-left: 2%; }
+  #portfolio .nav-pills > li.active > a {
+    font-family: "bebas___-webfont" !important;
+    color: #fff !important;
+    background-color: #E96441 !important; }
+  #portfolio .nav-pills > li > a {
+    font-family: "bebas___-webfont" !important;
+    color: #C6C4C4 !important;
+    background-color: transparent !important; }
+  #portfolio .nav-pills li {
+    background-color: transparent !important; }
+    #portfolio .nav-pills li a:hover, #portfolio .nav-pills li a:focus {
+      color: #fff !important; }
+    #portfolio .nav-pills li:hover, #portfolio .nav-pills li:focus {
+      background-color: #E96441 !important; }
+  #portfolio .imagenes {
+    width: 100%;
+    border: solid 1px #C6C4C4;
+    padding: 2px; }
+    #portfolio .imagenes img {
+      width: 100%; }
+  #portfolio .thumbs {
+    width: 100%;
+    padding: 0 0 5% 5px;
+    margin-top: 5px; }
+    #portfolio .thumbs h4 {
+      color: #C6C4C4;
+      margin-top: 0px; }
+    #portfolio .thumbs h6 {
+      color: #E96441;
+      margin-top: -10px; }
+
+#contactus {
+  /*/3 col items*/ }
+  #contactus h2, #contactus button {
+    font-family: "bebas___-webfont" !important;
+    word-spacing: 4px; }
+  #contactus h2 {
+    color: #E96441;
+    font-size: 1.2em; }
+  #contactus .btn-primary {
+    background-color: #E96441 !important;
+    border-color: #E96441 !important; }
+    #contactus .btn-primary:hover {
+      background-color: #D64B26 !important; }
+  #contactus .row p span {
+    color: #E96441; }
+  #contactus form input, #contactus form textarea {
+    border: solid 1px #E96441 !important;
+    padding: 5px;
+    margin-bottom: 15px; }
+  #contactus form input, #contactus form textarea:-moz-placeholder {
+    font-family: "bebas___-webfont" !important;
+    color: #E96441 !important; }
+  #contactus form input, #contactus form textarea::-moz-placeholder {
+    font-family: "bebas___-webfont" !important;
+    color: #E96441 !important;
+    opacity: 1; }
+  #contactus form input, #contactus form textarea:-ms-input-placeholder {
+    font-family: "bebas___-webfont" !important;
+    color: #E96441 !important; }
+  #contactus form input, #contactus form textarea::-webkit-input-placeholder {
+    font-family: "bebas___-webfont" !important;
+    color: #E96441 !important; }
+  #contactus form input, #contactus form input {
+    width: 70%; }
+    #contactus form input:value, #contactus form input:value {
+      font-family: "bebas___-webfont" !important;
+      color: #E96441 !important; }
+  #contactus button {
+    width: 100%; }
+
+@media screen and (max-width: 990px) and (min-width: 601px) {
+  #bloginfo .mt-10 {
+    margin-top: 15%; }
+
+  #aboutusinfo .red-block, #bloginfo .red-block, #contactus .red-block {
+    padding-bottom: 3em; } }
+@media screen and (max-width: 600px) {
+  #bloginfo .mt-10 {
+    margin-top: 20%; }
+
+  #aboutusinfo .red-block, #bloginfo .red-block, #contactus .red-block {
+    padding-bottom: 6em; }
+
+  .xsmt {
+    margin-top: 5%; }
+
+  #portfolio .nav-pills li {
+    margin-top: 2%; }
+
+  #contactus form input {
+    width: 100%; } }
+/*modals */
+ul li img {
+  cursor: pointer; }
+
+.modal-body {
+  padding: 5px !important; }
+
+.modal-content {
+  border-radius: 0; }
+
+.modal-dialog img {
+  text-align: center;
+  margin: 0 auto; }
+
+.controls {
+  width: 50px;
+  display: block;
+  font-size: 11px;
+  padding-top: 8px;
+  font-weight: bold; }
+
+.next {
+  float: right;
+  text-align: right; }
+
+/*override modal for demo only*/
+.modal-dialog {
+  max-width: 500px;
+  padding-top: 90px; }
+
+@media screen and (min-width: 768px) {
+  .modal-dialog {
+    width: 500px;
+    padding-top: 90px; } }
+@media screen and (max-width: 1500px) {
+  #ads {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */

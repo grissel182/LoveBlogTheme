@@ -1,7 +1,7 @@
 @import "../variables/var";
 
 footer{
-    color: $white;
+    color: $white !important ;
     background-color: $light;
     .base {
         background-color: white;
@@ -12,7 +12,6 @@ footer{
             width: 99%;
         }
         h2 {
-        font-family: "bebas___-webfont" !important;
         word-spacing: 4px;
         }
     }

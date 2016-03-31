@@ -15,7 +15,12 @@
   font-family: "HelveticaNeue";
   src: url("../font/HelveticaNeue.ttf");
 }
-
+section p{
+	color: #5D5858;
+}
+h5,h2,h3,h4,h6{
+	font-family: "bebas___-webfont" !important;
+}
 .pleca{
 	height: 6em;
 	background-color: $light;
@@ -25,6 +30,18 @@
 }
 .line{
 	background-color: $white !important;
+}
+.light-gray{
+	color: #A6A5A5 !important;
+}
+.pl-15{
+	padding-left: $quincep;
+}
+.mt-5{
+	margin-top: $cinco;
+}
+.pt-3{
+	padding-top: 8%;
 }
 #items{
 	@include items1;
@@ -45,3 +62,295 @@
 		@include fromb;
 	}
 }
+#titulo{
+	@include titulos;
+}
+#aboutusinfo{
+	padding-bottom: $cinco;
+	.borde-img{
+		border: 1px solid $gris;
+		padding: 3px;
+		img{
+			width: $cien;
+		}
+	}
+	.titles{
+		@include titles;
+		h3{
+			font-size: 1.1em !important;
+			margin-top: 0 !important;
+		}
+		.image{
+			margin-top: 0 !important;
+		}
+	}
+	a{
+		li{
+			color: black;
+			font-weight: 600;
+			list-style-type: none;
+			&:hover{
+				color: $color;
+			}
+		}
+	}
+	.v5{
+		width: 22%;
+		display: inline-block;
+	}
+	.red-block{
+		background-color: $light;
+		border: 1px solid $color;
+		height: auto;
+		padding-bottom: 4em;
+		&:hover, &:focus{
+			background-image: url(../images/portfolio5.png);
+			background-size: cover;
+			border: 1px solid $color-dark;
+		}
+	}
+	blockquote {
+  		border-left: 10px solid $color;
+  		margin:0 $cinco;
+  		.txt-color{
+			color: $color !important;
+			line-height: 1.4;
+  		}
+  		
+	}
+}
+/*blog*/
+#bloginfo{
+	@extend #aboutusinfo;
+	h5, h4{
+		color: $color;
+	}
+	.plecatextura{
+		@include titles;
+	}
+	.mt-10{
+		margin-top: 10%;
+	}
+	blockquote {
+	  background: #F6F6F6;
+	  border-left: none;
+	  margin: $cinco 0 0;
+	  padding: $cinco;
+	  span{
+	  	margin: -10px 2px 20px 0;
+	  	display: block;
+		float:  left;
+	  }
+	}
+	blockquote:before {
+	  color: #ccc;
+	  font-size: 4em;
+	  line-height: 0.1em;
+	  margin-right: 0;
+	  vertical-align: -0.4em;
+	}
+	blockquote p {
+	  display: inline-block;
+	  margin: -20px 0 0 45px;
+	}
+	.mpl{
+		margin: 5% 0 0 2%;
+	}
+	.pagination{
+		li a{
+			background-color: $color !important;
+			color: $white !important;
+			border: 1px solid $color-dark !important;
+			font-family: "bebas___-webfont" !important;
+			border-radius: 0px !important;
+			margin: 0 10px 0 0;
+			&:hover{
+				background-color: $color-dark !important;
+			}
+		}
+	}
+	.icon1{
+		position: absolute;
+		margin-left: -90px;
+	}
+	.icon4{
+		margin-top: 42px;
+	}
+}
+/*portfolio*/
+#portfolio{
+	h4{
+		color: black;
+		display: inline-block;
+	}
+	ul{
+		display: inline-block;
+		margin-left: 2%;
+	}
+	padding-bottom: 5%;
+	.nav-pills > li.active > a{
+		font-family: "bebas___-webfont" !important;
+	  	color: #fff !important;
+	  	background-color: $color !important;
+	}
+	.nav-pills > li > a{
+		font-family: "bebas___-webfont" !important;
+	  	color: $gris !important;
+	  	background-color: transparent !important;
+	}
+	.nav-pills li{
+		background-color: transparent !important;
+		a{
+			&:hover, &:focus{
+				color: #fff !important;
+			}
+		}
+		&:hover, &:focus{
+	  		background-color: $color !important;
+		}
+	}
+	.imagenes{
+		width: $cien;
+		border: solid 1px $gris;
+		padding: 2px;
+		img{
+			width: $cien;
+		}
+	}
+	.thumbs{
+		width: $cien;
+		padding: 0 0 5% 5px;
+		margin-top: 5px;
+		h4{
+			color: $gris;
+			margin-top: 0px;
+		}
+		h6{
+			color: $color;
+			margin-top: -10px;
+		}
+
+	}
+}
+#contactus{
+	@extend #aboutusinfo;
+	@include items1;
+	.row p span{
+		color: $color;
+	}
+	form{
+		input, textarea{
+			border: solid 1px $color !important;
+			padding: 5px;
+			margin-bottom: $quincep; 
+		}
+		input, textarea:-moz-placeholder {
+			font-family: "bebas___-webfont" !important;
+		  color: $color !important;
+		}
+		input, textarea::-moz-placeholder {
+			font-family: "bebas___-webfont" !important;
+		  color: $color !important;
+		  opacity: 1;
+		}
+		input, textarea:-ms-input-placeholder {
+			font-family: "bebas___-webfont" !important;
+		  color: $color !important;
+		}
+		input, textarea::-webkit-input-placeholder {
+			font-family: "bebas___-webfont" !important;
+		  	color: $color !important;
+		}
+		input, input{
+			width: 70%;
+			&:value{
+				font-family: "bebas___-webfont" !important;
+		  		color: $color !important;
+			}
+		}
+	}
+	button{
+		width: $cien;
+	}
+}
+@media screen and (max-width: 990px) and (min-width: 601px) {
+	#bloginfo{
+		.mt-10	{
+			margin-top: 15%;
+		}
+	}
+	#aboutusinfo{
+		.red-block{
+			padding-bottom: 3em;
+		}
+	}
+}
+@media screen and (max-width: 600px) {
+	#bloginfo{
+		.mt-10	{
+			margin-top: 20%;
+		}
+	}
+		#aboutusinfo{
+		.red-block{
+			padding-bottom: 6em;
+		}
+	}
+	.xsmt{
+		margin-top: 5%;
+	}
+	#portfolio{
+		.nav-pills{
+			li{
+				margin-top: 2%;
+			}
+		}
+	}
+	#contactus{
+		form input{
+			width: 100%;
+		}
+	}
+}
+
+/*modals */
+	ul li img {
+	          cursor: pointer;
+	      }
+	.modal-body {
+          padding:5px !important;
+      }
+      .modal-content {
+          border-radius:0;
+      }
+      .modal-dialog img {
+          text-align:center;
+          margin:0 auto;
+      }
+    .controls{          
+        width:50px;
+        display:block;
+        font-size:11px;
+        padding-top:8px;
+        font-weight:bold;          
+    }
+    .next {
+        float:right;
+        text-align:right;
+    }
+      /*override modal for demo only*/
+      .modal-dialog {
+          max-width:500px;
+          padding-top: 90px;
+      }
+      @media screen and (min-width: 768px){
+          .modal-dialog {
+              width:500px;
+              padding-top: 90px;
+          }          
+      }
+      @media screen and (max-width:1500px){
+          #ads {
+              display:none;
+          }
+      }
