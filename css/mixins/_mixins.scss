@@ -69,3 +69,19 @@
 		padding-left: $quincep;
 	}
 }
+@mixin cuadritos ($imagen){
+	background-color: $light;
+	border: 1px solid $color;
+	height: auto;
+	padding-bottom: 4em;
+	&:hover, &:focus{
+		background-image: $imagen;
+		background-position: center center;
+		background-size: cover;
+		border: 1px solid $color-dark;
+		z-index:100;
+		-moz-transform:scale(3);                   /* zoom en navegador Firefox */
+		-webkit-transform:scale(3);                /* zoom en navegador Chrome y Safari */
+		-o-transform:scale(3);                    /* zoom en navegador Opera */
+	}
+}

@@ -98,16 +98,29 @@ h5,h2,h3,h4,h6{
 		width: 22%;
 		display: inline-block;
 	}
-	.red-block{
-		background-color: $light;
-		border: 1px solid $color;
-		height: auto;
-		padding-bottom: 4em;
-		&:hover, &:focus{
-			background-image: url(../images/portfolio5.png);
-			background-size: cover;
-			border: 1px solid $color-dark;
-		}
+	.red-block1{
+		@include cuadritos (url(../images/large/1.jpg));
+	}
+	.red-block2{
+		@include cuadritos (url(../images/large/2.jpg));
+	}
+	.red-block3{
+		@include cuadritos (url(../images/large/3.jpg));
+	}
+	.red-block4{
+		@include cuadritos (url(../images/large/4.jpg));
+	}
+	.red-block5{
+		@include cuadritos (url(../images/large/5.jpg));
+	}
+	.red-block6{
+		@include cuadritos (url(../images/large/6.jpg));
+	}
+	.red-block7{
+		@include cuadritos (url(../images/large/7.jpg));
+	}
+	.red-block8{
+		@include cuadritos (url(../images/large/4.jpg));
 	}
 	blockquote {
   		border-left: 10px solid $color;
@@ -215,6 +228,11 @@ h5,h2,h3,h4,h6{
 		padding: 2px;
 		img{
 			width: $cien;
+			&:hover{
+				-moz-transform:scale(1.2);                   /* zoom en navegador Firefox */
+				-webkit-transform:scale(1.2);                /* zoom en navegador Chrome y Safari */
+				-o-transform:scale(1.2);   
+			}
 		}
 	}
 	.thumbs{

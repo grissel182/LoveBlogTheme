@@ -219,15 +219,142 @@ h5, h2, h3, h4, h6 {
   #aboutusinfo .v5, #bloginfo .v5, #contactus .v5 {
     width: 22%;
     display: inline-block; }
-  #aboutusinfo .red-block, #bloginfo .red-block, #contactus .red-block {
+  #aboutusinfo .red-block1, #bloginfo .red-block1, #contactus .red-block1 {
     background-color: rgba(233, 100, 65, 0.5);
     border: 1px solid #E96441;
     height: auto;
     padding-bottom: 4em; }
-    #aboutusinfo .red-block:hover, #bloginfo .red-block:hover, #contactus .red-block:hover, #aboutusinfo .red-block:focus, #bloginfo .red-block:focus, #contactus .red-block:focus {
-      background-image: url(../images/portfolio5.png);
+    #aboutusinfo .red-block1:hover, #bloginfo .red-block1:hover, #contactus .red-block1:hover, #aboutusinfo .red-block1:focus, #bloginfo .red-block1:focus, #contactus .red-block1:focus {
+      background-image: url(../images/large/1.jpg);
+      background-position: center center;
       background-size: cover;
-      border: 1px solid #D64B26; }
+      border: 1px solid #D64B26;
+      z-index: 100;
+      -moz-transform: scale(3);
+      /* zoom en navegador Firefox */
+      -webkit-transform: scale(3);
+      /* zoom en navegador Chrome y Safari */
+      -o-transform: scale(3);
+      /* zoom en navegador Opera */ }
+  #aboutusinfo .red-block2, #bloginfo .red-block2, #contactus .red-block2 {
+    background-color: rgba(233, 100, 65, 0.5);
+    border: 1px solid #E96441;
+    height: auto;
+    padding-bottom: 4em; }
+    #aboutusinfo .red-block2:hover, #bloginfo .red-block2:hover, #contactus .red-block2:hover, #aboutusinfo .red-block2:focus, #bloginfo .red-block2:focus, #contactus .red-block2:focus {
+      background-image: url(../images/large/2.jpg);
+      background-position: center center;
+      background-size: cover;
+      border: 1px solid #D64B26;
+      z-index: 100;
+      -moz-transform: scale(3);
+      /* zoom en navegador Firefox */
+      -webkit-transform: scale(3);
+      /* zoom en navegador Chrome y Safari */
+      -o-transform: scale(3);
+      /* zoom en navegador Opera */ }
+  #aboutusinfo .red-block3, #bloginfo .red-block3, #contactus .red-block3 {
+    background-color: rgba(233, 100, 65, 0.5);
+    border: 1px solid #E96441;
+    height: auto;
+    padding-bottom: 4em; }
+    #aboutusinfo .red-block3:hover, #bloginfo .red-block3:hover, #contactus .red-block3:hover, #aboutusinfo .red-block3:focus, #bloginfo .red-block3:focus, #contactus .red-block3:focus {
+      background-image: url(../images/large/3.jpg);
+      background-position: center center;
+      background-size: cover;
+      border: 1px solid #D64B26;
+      z-index: 100;
+      -moz-transform: scale(3);
+      /* zoom en navegador Firefox */
+      -webkit-transform: scale(3);
+      /* zoom en navegador Chrome y Safari */
+      -o-transform: scale(3);
+      /* zoom en navegador Opera */ }
+  #aboutusinfo .red-block4, #bloginfo .red-block4, #contactus .red-block4 {
+    background-color: rgba(233, 100, 65, 0.5);
+    border: 1px solid #E96441;
+    height: auto;
+    padding-bottom: 4em; }
+    #aboutusinfo .red-block4:hover, #bloginfo .red-block4:hover, #contactus .red-block4:hover, #aboutusinfo .red-block4:focus, #bloginfo .red-block4:focus, #contactus .red-block4:focus {
+      background-image: url(../images/large/4.jpg);
+      background-position: center center;
+      background-size: cover;
+      border: 1px solid #D64B26;
+      z-index: 100;
+      -moz-transform: scale(3);
+      /* zoom en navegador Firefox */
+      -webkit-transform: scale(3);
+      /* zoom en navegador Chrome y Safari */
+      -o-transform: scale(3);
+      /* zoom en navegador Opera */ }
+  #aboutusinfo .red-block5, #bloginfo .red-block5, #contactus .red-block5 {
+    background-color: rgba(233, 100, 65, 0.5);
+    border: 1px solid #E96441;
+    height: auto;
+    padding-bottom: 4em; }
+    #aboutusinfo .red-block5:hover, #bloginfo .red-block5:hover, #contactus .red-block5:hover, #aboutusinfo .red-block5:focus, #bloginfo .red-block5:focus, #contactus .red-block5:focus {
+      background-image: url(../images/large/5.jpg);
+      background-position: center center;
+      background-size: cover;
+      border: 1px solid #D64B26;
+      z-index: 100;
+      -moz-transform: scale(3);
+      /* zoom en navegador Firefox */
+      -webkit-transform: scale(3);
+      /* zoom en navegador Chrome y Safari */
+      -o-transform: scale(3);
+      /* zoom en navegador Opera */ }
+  #aboutusinfo .red-block6, #bloginfo .red-block6, #contactus .red-block6 {
+    background-color: rgba(233, 100, 65, 0.5);
+    border: 1px solid #E96441;
+    height: auto;
+    padding-bottom: 4em; }
+    #aboutusinfo .red-block6:hover, #bloginfo .red-block6:hover, #contactus .red-block6:hover, #aboutusinfo .red-block6:focus, #bloginfo .red-block6:focus, #contactus .red-block6:focus {
+      background-image: url(../images/large/6.jpg);
+      background-position: center center;
+      background-size: cover;
+      border: 1px solid #D64B26;
+      z-index: 100;
+      -moz-transform: scale(3);
+      /* zoom en navegador Firefox */
+      -webkit-transform: scale(3);
+      /* zoom en navegador Chrome y Safari */
+      -o-transform: scale(3);
+      /* zoom en navegador Opera */ }
+  #aboutusinfo .red-block7, #bloginfo .red-block7, #contactus .red-block7 {
+    background-color: rgba(233, 100, 65, 0.5);
+    border: 1px solid #E96441;
+    height: auto;
+    padding-bottom: 4em; }
+    #aboutusinfo .red-block7:hover, #bloginfo .red-block7:hover, #contactus .red-block7:hover, #aboutusinfo .red-block7:focus, #bloginfo .red-block7:focus, #contactus .red-block7:focus {
+      background-image: url(../images/large/7.jpg);
+      background-position: center center;
+      background-size: cover;
+      border: 1px solid #D64B26;
+      z-index: 100;
+      -moz-transform: scale(3);
+      /* zoom en navegador Firefox */
+      -webkit-transform: scale(3);
+      /* zoom en navegador Chrome y Safari */
+      -o-transform: scale(3);
+      /* zoom en navegador Opera */ }
+  #aboutusinfo .red-block8, #bloginfo .red-block8, #contactus .red-block8 {
+    background-color: rgba(233, 100, 65, 0.5);
+    border: 1px solid #E96441;
+    height: auto;
+    padding-bottom: 4em; }
+    #aboutusinfo .red-block8:hover, #bloginfo .red-block8:hover, #contactus .red-block8:hover, #aboutusinfo .red-block8:focus, #bloginfo .red-block8:focus, #contactus .red-block8:focus {
+      background-image: url(../images/large/4.jpg);
+      background-position: center center;
+      background-size: cover;
+      border: 1px solid #D64B26;
+      z-index: 100;
+      -moz-transform: scale(3);
+      /* zoom en navegador Firefox */
+      -webkit-transform: scale(3);
+      /* zoom en navegador Chrome y Safari */
+      -o-transform: scale(3);
+      /* zoom en navegador Opera */ }
   #aboutusinfo blockquote, #bloginfo blockquote, #contactus blockquote {
     border-left: 10px solid #E96441;
     margin: 0 5%; }
@@ -314,6 +441,12 @@ h5, h2, h3, h4, h6 {
     padding: 2px; }
     #portfolio .imagenes img {
       width: 100%; }
+      #portfolio .imagenes img:hover {
+        -moz-transform: scale(1.2);
+        /* zoom en navegador Firefox */
+        -webkit-transform: scale(1.2);
+        /* zoom en navegador Chrome y Safari */
+        -o-transform: scale(1.2); }
   #portfolio .thumbs {
     width: 100%;
     padding: 0 0 5% 5px;
